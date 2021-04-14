@@ -19,7 +19,9 @@ print(x)
 x = str(3)    # x will be '3'
 y = int(3)    # y will be 3
 z = float(3)  # z will be 3.0
-print(x,y,z)
+print(x)
+print(y)
+print(z)
 
 
 #Get the Type You can get the data type of a variable with the type() function.
@@ -37,3 +39,35 @@ x = 'John'
 a = 4
 A = "Sally"
 #A will not overwrite a
+
+#var name 
+#Legal variable names:
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+#not valid name 
+#2myvar = "John"
+#my-var = "John"
+#my var = "John"
+
+#assign multiple value
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+
+#list is use we will see in next upcoming replit
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
